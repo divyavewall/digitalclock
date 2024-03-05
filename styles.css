@@ -80,3 +80,16 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
 }
+
+/* Media query for small screens */
+/* Media query for phones */
+@media only screen and (max-width: 500px) {
+    #clock-container {
+        gap: 1px; /* Reduce the gap further for small screens */
+    }
+
+    #clock-container .circle {
+        width: 100%; /* Adjust the clock container width for better fit on small screens */
+        margin: 0 auto; /* Center the clock container horizontally */
+    }
+}
