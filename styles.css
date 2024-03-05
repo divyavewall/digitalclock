@@ -83,7 +83,7 @@ body{
 
 /* Media query for small screens */
 /* Media query for phones */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #clock-container {
         gap: 1px; /* Reduce the gap further for small screens */
     }
