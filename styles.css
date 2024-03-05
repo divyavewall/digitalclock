@@ -89,7 +89,7 @@ body{
     }
 
     #clock-container .circle {
-        width: 100%; /* Adjust the clock container width for better fit on small screens */
+        width: 80%; /* Adjust the clock container width for better fit on small screens */
         margin: 0 auto; /* Center the clock container horizontally */
     }
 }
